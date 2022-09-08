@@ -36,6 +36,8 @@ public class TC_01_Ecommerce extends BaseTest {
 		home.selectCountryDropDown(input.get("country"));
 		home.clickSubmit();
 		System.out.println("Rahul 2");
+		System.out.println("Rahul branch1");
+		
 		
 		
 	}
