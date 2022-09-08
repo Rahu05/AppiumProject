@@ -40,6 +40,7 @@ public class TC02_Ecommerce extends BaseTest {
 		
 		String actualToastmessage=driver.findElement(By.xpath("//android.widget.Toast")).getAttribute("name");
 		Assert.assertEquals(actualToastmessage, "Please enter your name");
+		System.out.println("rahul 1");
 
 }
 
