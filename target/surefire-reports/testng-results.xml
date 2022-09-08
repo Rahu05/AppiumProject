@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-05T14:54:37Z" name="Suite" finished-at="2022-09-05T14:55:11Z" duration-ms="34449">
+    <groups>
+      <group name="smoke">
+        <method signature="TC_01_Ecommerce.formFill(java.util.HashMap)[pri:0, instance:org.rahulAppium.testCase.TC_01_Ecommerce@7446d8d5]" name="formFill" class="org.rahulAppium.testCase.TC_01_Ecommerce"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-09-05T14:54:37Z" name="Test1234" finished-at="2022-09-05T14:55:11Z" duration-ms="34449">
+      <class name="org.rahulAppium.testCase.TC_01_Ecommerce">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:org.rahulAppium.testCase.TC_01_Ecommerce@7446d8d5]" started-at="2022-09-05T14:54:37Z" name="configureAppium" finished-at="2022-09-05T14:54:52Z" duration-ms="15300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="formFill(java.util.HashMap)[pri:0, instance:org.rahulAppium.testCase.TC_01_Ecommerce@7446d8d5]" started-at="2022-09-05T14:54:53Z" name="formFill" data-provider="getData" finished-at="2022-09-05T14:55:02Z" duration-ms="9353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=raushan, country=Argentina, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFill -->
+        <test-method signature="formFill(java.util.HashMap)[pri:0, instance:org.rahulAppium.testCase.TC_01_Ecommerce@7446d8d5]" started-at="2022-09-05T14:55:02Z" name="formFill" data-provider="getData" finished-at="2022-09-05T14:55:11Z" duration-ms="9384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=rohit, country=Argentina, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFill -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulAppium.testCase.TC_01_Ecommerce@7446d8d5]" started-at="2022-09-05T14:55:11Z" name="tearDown" finished-at="2022-09-05T14:55:11Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulAppium.testCase.TC_01_Ecommerce -->
+    </test> <!-- Test1234 -->
+  </suite> <!-- Suite -->
+</testng-results>
