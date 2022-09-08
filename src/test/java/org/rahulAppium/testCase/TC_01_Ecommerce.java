@@ -37,6 +37,8 @@ public class TC_01_Ecommerce extends BaseTest {
 		home.clickSubmit();
 		System.out.println("Rahul 2");
 		System.out.println("Rahul branch1");
+		System.out.println("Rahul branch2");
+		
 		
 		
 		
